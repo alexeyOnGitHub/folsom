@@ -5,4 +5,4 @@ maintainers:
 
 code_coverage: false
 pr_validation: true
-maven_goals: -U -B clean deploy -DskipITs
+maven_goals: -U -B clean deploy -DskipTests=true -Dgpg.skip=true
