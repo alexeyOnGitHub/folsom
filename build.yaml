@@ -1,0 +1,8 @@
+type: maven_library
+slack_channel: #eng-identity
+maintainers:
+  - identity@twilio.com
+
+code_coverage: false
+pr_validation: true
+maven_goals: -U -B clean deploy -DskipITs
